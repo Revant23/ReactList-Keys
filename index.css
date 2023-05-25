@@ -1,0 +1,75 @@
+/* Write your code here. */
+
+.main-container {
+  margin-left: 20px;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.small-box {
+  color: #ffffff;
+  background-color: #fbbf24;
+  height: 80px;
+  width: 80px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+  margin-bottom: 30px;
+}
+
+.medium-box {
+  color: #ffffff;
+  background-color: #38bdf8;
+  height: 160px;
+  width: 160px;
+  font-size: 10px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.large-box {
+  color: #ffffff;
+  background-color: #ec4899;
+  height: 320px;
+  width: 320px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  margin-left: 110px;
+}
+
+@media (min-width: 768px) {
+  .boxes-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .small-box {
+    margin-top: 240px;
+    margin-left: 0px;
+  }
+  .medium-box {
+    margin-top: 160px;
+    margin-left: 0px;
+  }
+  .main-heading {
+    text-align: center;
+    margin-left: 0px;
+  }
+}
